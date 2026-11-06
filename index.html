@@ -407,14 +407,5 @@ addEventListener("pointerdown",function(){if(bg.paused&&vis)pl()},{once:true});
 var vis=true;if("IntersectionObserver"in window)new IntersectionObserver(function(a){vis=a[0].isIntersecting;if(vis)pl();else bg.pause()}).observe(bg.parentNode)}}
 })();
 </script>
-  <h3>Мои видеоматериалы</h3>
-    
-    <video width="100%" controls style="margin-bottom: 20px;">
-      <source src="video1.mp4" type="video/mp4">
-    </video>
-
-    <video width="100%" controls>
-      <source src="video2.mp4" type="video/mp4">
-    </video>
 </body>
 </html>
